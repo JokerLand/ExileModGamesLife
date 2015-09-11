@@ -77,3 +77,22 @@ allowFunctionsRecompile = 0;
 class CfgRemoteExecCommands {};
 
 #include "config.cpp"
+
+class cfgFunctions
+{
+	class VEMF
+	{
+		tag = "VEMF";
+		class functions
+		{
+			file = "VEMFclient";
+			class vemfClientMessage {};
+			class vemfClientInit { postInit = 1; };
+		};
+	};
+};
+
+class RscTitles
+{
+	#include "VEMFclient\hpp_mainVemfClient.hpp"
+};
