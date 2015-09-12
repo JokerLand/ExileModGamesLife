@@ -74,7 +74,7 @@ if (VEMF_invasCount < _maxInvasions) then
 					if _done then
 					{
 						// Broadcast
-						_completeMsg = [format["%1 has been cleared by the exiled near %2", _locName, mapGridPosition (_loc select 1)], ""] call VEMF_fnc_broadCast;
+						_completeMsg = [format["%1 a ete nettoyer par une team en %2", _locName, mapGridPosition (_loc select 1)], ""] call VEMF_fnc_broadCast;
 						if _completeMsg then
 						{
 							// Choose a box
