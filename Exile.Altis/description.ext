@@ -94,5 +94,10 @@ class cfgFunctions
 
 class RscTitles
 {
+	#include "addons\statusBar\statusBar.hpp"
+};
+
+class RscTitles
+{
 	#include "VEMFclient\hpp_mainVemfClient.hpp"
 };
