@@ -4,6 +4,7 @@
 #include "initServer.sqf"
 
 if (!hasInterface || isServer) exitWith {};
+[] execVM "addons\statusBar\statusbar.sqf";
 
 ///////////////////////////////////////////////////////////////////////////
 // Hardware Trader
