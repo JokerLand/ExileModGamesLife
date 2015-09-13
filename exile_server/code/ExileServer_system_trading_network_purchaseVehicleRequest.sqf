@@ -77,7 +77,7 @@ try
 			    80,            	 	
 			    8,                 
 			    0,                  
-			    5,               
+			    9999,               
 			    0                   
 			]
 			call BIS_fnc_findSafePos;
