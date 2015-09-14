@@ -31,6 +31,7 @@ _bambiPlayer disableAI "FSM";
 _bambiPlayer disableAI "MOVE";
 _bambiPlayer disableAI "AUTOTARGET";
 _bambiPlayer disableAI "TARGET";
+_bambiPlayer addRating -3000;
 _bambiPlayer setDir _direction;
 _bambiPlayer setName _name;
 _bambiPlayer setVariable ["ExileMoney", (_accountData select 0)];
