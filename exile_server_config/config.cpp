@@ -2327,7 +2327,7 @@ class CfgSettings
 		 * 50%  = Normal loot spawn rates
 		 * 20%  = You get the point
 		 */
-		spawnChance = 70;
+		spawnChance = 100;
 
 		/**
 		 * Radius in meter to spawn loot AROUND each player.
@@ -2347,7 +2347,7 @@ class CfgSettings
 		* 10m  = Minimum
 		* 50m = Maximum
 		*/
-		visualThreshold = 25;
+		visualThreshold = 50;
 
 		/**
 		 * Time in seconds to define how long loot stays on the ground
