@@ -2531,7 +2531,7 @@ class CfgSettings
 		useRealTime = 0;
 
 		// Will overide RealTime
-		useStaticTime = 1;
+		useStaticTime = 0;
 
 		// time in ARMA FORMAT << CONFIG
 		// https://community.bistudio.com/wiki/setDate
