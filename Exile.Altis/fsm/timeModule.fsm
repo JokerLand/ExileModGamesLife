@@ -22,7 +22,7 @@ link7[] = {7,8};
 link8[] = {8,9};
 link9[] = {9,6};
 globals[] = {0.000000,0,0,0,0,640,480,1,20,6316128,1,-507.711090,507.708649,510.168732,-310.463593,826,588,1};
-window[] = {0,-1,-1,-1,-1,817,482,1922,57,1,844};
+window[] = {0,-1,-1,-1,-1,968,208,1648,208,1,844};
 *//*%FSM</HEAD>*/
 class FSM
 {
@@ -36,10 +36,10 @@ class FSM
                         itemno = 0;
                         init = /*%FSM<STATEINIT""">*/"private[""_skipDay"",""_skipNight"",""_method"",""_fastNight"",""_sunState""];" \n
                          "" \n
-                         "_skipDay = [_this,0,8,[0]] call BIS_fnc_param;" \n
+                         "_skipDay = [_this,0,16,[0]] call BIS_fnc_param;" \n
                          "_method = [_this,1,true,[false]] call BIS_fnc_param;" \n
                          "_fastNight = [_this,2,false,[true]] call BIS_fnc_param;" \n
-                         "_skipNight = [_this,3,8,[0]] call BIS_fnc_param;" \n
+                         "_skipNight = [_this,3,16,[0]] call BIS_fnc_param;" \n
                          "" \n
                          "//Setup our vars." \n
                          "_skipTime = _skipDay;" \n
