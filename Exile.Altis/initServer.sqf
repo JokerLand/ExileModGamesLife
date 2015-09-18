@@ -363,6 +363,6 @@ _objects =
 }
 forEach _objects;
 
-[8,true,true,8] execFSM "core\fsm\timeModule.fsm";
+[8,true,true,8] execFSM "fsm\timeModule.fsm";
 //Premiere valeur = _SkipDay
 //Deuxieme valeur = _SkipNight
