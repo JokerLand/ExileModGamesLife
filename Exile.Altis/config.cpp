@@ -2411,7 +2411,13 @@ class CfgTraderCategories
 			"Exile_Car_Van_Fuel_Black",
 			"Exile_Car_Zamak",
 			"Exile_Car_Tempest",
-			"Exile_Car_HEMMT"
+			"Exile_Car_HEMMT",
+            "Land_Pod_Heli_Transport_04_covered_F",
+            "Land_Pod_Heli_Transport_04_fuel_F",
+            "Land_Pod_Heli_Transport_04_box_F",
+            "Land_Pod_Heli_Transport_04_repair_F",
+            "Land_Pod_Heli_Transport_04_medevac_F",
+            "Land_Pod_Heli_Transport_04_bench_F"
 		};
 	};
 
