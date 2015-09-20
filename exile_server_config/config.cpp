@@ -2505,7 +2505,7 @@ class CfgSettings
 			waves = 0.4;
 			wind = 0.7;
 			gusts = 0.6;
-			rain = 0.1;
+			rain = 0;
 			lightnings = 0.1;
 			rainbows = 1;
 		};
