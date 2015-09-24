@@ -2519,7 +2519,7 @@ class CfgSettings
 			waves = 1;
 			wind = 1;
 			gusts = 1;
-			rain = 1;
+			rain = 0;
 			lightnings = 1;
 			rainbows = 0.5;
 		};
