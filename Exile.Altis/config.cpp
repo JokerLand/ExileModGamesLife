@@ -889,14 +889,14 @@ class CfgExileArsenal
 	///////////////////////////////////////////////////////////////////////////////
 	// Bitpod Attachments
 	///////////////////////////////////////////////////////////////////////////////
-	class bipod_01_F_blk	 						{ quality = 1; price = 10; };
-	class bipod_01_F_mtp	 						{ quality = 1; price = 10; };
-	class bipod_01_F_snd	 						{ quality = 1; price = 10; };
-	class bipod_02_F_blk	 						{ quality = 1; price = 10; };
-	class bipod_02_F_hex	 						{ quality = 1; price = 10; };
-	class bipod_02_F_tan	 						{ quality = 1; price = 10; };
-	class bipod_03_F_blk	 						{ quality = 1; price = 10; };
-	class bipod_03_F_oli	 						{ quality = 1; price = 10; };
+	class bipod_01_F_blk	 						{ quality = 1; price = 0; };
+	class bipod_01_F_mtp	 						{ quality = 1; price = 0; };
+	class bipod_01_F_snd	 						{ quality = 1; price = 0; };
+	class bipod_02_F_blk	 						{ quality = 1; price = 0; };
+	class bipod_02_F_hex	 						{ quality = 1; price = 0; };
+	class bipod_02_F_tan	 						{ quality = 1; price = 0; };
+	class bipod_03_F_blk	 						{ quality = 1; price = 0; };
+	class bipod_03_F_oli	 						{ quality = 1; price = 0; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Muzzle Attachments
@@ -950,11 +950,11 @@ class CfgExileArsenal
 	class optic_LRPS								{ quality = 2; price = 300; };
 	class optic_MRCO								{ quality = 1; price = 100; };
 	class optic_MRD									{ quality = 1; price = 10; };
-	class optic_Nightstalker						{ quality = 3; price = 1000; };
+	class optic_Nightstalker						{ quality = 3; price = 10000; };
 	class optic_NVS									{ quality = 2; price = 500; };
 	class optic_SOS									{ quality = 2; price = 200; };
-	class optic_tws									{ quality = 3; price = 1500; };
-	class optic_tws_mg								{ quality = 3; price = 1500; };
+	class optic_tws									{ quality = 3; price = 7500; };
+	class optic_tws_mg								{ quality = 3; price = 7500; };
 	class optic_Yorris								{ quality = 1; price = 10; };
 
 	///////////////////////////////////////////////////////////////////////////////
