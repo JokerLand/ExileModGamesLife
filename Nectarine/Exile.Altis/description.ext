@@ -4,13 +4,33 @@ forceRotorLibSimulation = 2;
 // https://community.bistudio.com/wiki/Description.ext#disableChannels
 disableChannels[] = {0, 2};
 
-author = "Exile Mod Team";
+author = "Exile Mod Team By www.exilemod.com";
 loadScreen = "exile_client\texture\mod\logo.paa"; 
-onLoadMission= "www.exilemod.com";
+onLoadMission= "Notre Site : www.altislifefr.com | Notre Teamspeak 3 : ts3.altislifefr.com";
 OnLoadIntro = "";
 OnLoadIntroTime = false;
 OnLoadMissionTime = false;
-onLoadName = "Exile Mod";
+onLoadName = "Exile by ExileModFr";
+
+class RscTitles
+{
+	#include "VEMFclient\hpp_mainVemfClient.hpp"
+	#include "addons\statusBar\statusBar.hpp"
+};
+
+class cfgFunctions
+{
+	class VEMF
+	{
+		tag = "VEMF";
+		class functions
+		{
+			file = "VEMFclient";
+			class vemfClientMessage {};
+			class vemfClientInit { postInit = 1; };
+		};
+	};
+};
 
 class Header
 {
@@ -75,7 +95,7 @@ allowFunctionsLog = 1;
 // 0 = Default behavior, available only in editor
 // 1 = Available in SP and for hosts / logged in admins
 // 2 = Available for everyone
-enableDebugConsole = 0; // 2 = dangerous in MP
+enableDebugConsole = 1; // 2 = dangerous in MP
 
 // NO NO NO
 allowFunctionsRecompile = 0;

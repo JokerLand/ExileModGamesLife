@@ -1563,6 +1563,17 @@ class CfgExileArsenal
 	// Zamak
 	///////////////////////////////////////////////////////////////////////////////
 	class Exile_Car_Zamak 								{ quality = 1; price = 3000; };
+    
+    /////////////////////////////////////////////////////////////////////////////// 
+    // Camo Taru Pods 
+    /////////////////////////////////////////////////////////////////////////////// 
+    class Land_Pod_Heli_Transport_04_covered_F          { quality = 1; price = 10000; }; 
+    class Land_Pod_Heli_Transport_04_fuel_F             { quality = 1; price = 10000; }; 
+    class Land_Pod_Heli_Transport_04_box_F              { quality = 1; price = 10000; }; 
+    class Land_Pod_Heli_Transport_04_repair_F           { quality = 1; price = 10000; }; 
+    class Land_Pod_Heli_Transport_04_medevac_F          { quality = 1; price = 10000; }; 
+    class Land_Pod_Heli_Transport_04_bench_F            { quality = 1; price = 10000; };
+    
 };
 class CfgExileCustomCode 
 {
@@ -2414,7 +2425,13 @@ class CfgTraderCategories
 			"Exile_Car_Van_Fuel_Black",
 			"Exile_Car_Zamak",
 			"Exile_Car_Tempest",
-			"Exile_Car_HEMMT"
+			"Exile_Car_HEMMT",
+            "Land_Pod_Heli_Transport_04_covered_F",
+            "Land_Pod_Heli_Transport_04_fuel_F",
+            "Land_Pod_Heli_Transport_04_box_F",
+            "Land_Pod_Heli_Transport_04_repair_F",
+            "Land_Pod_Heli_Transport_04_medevac_F",
+            "Land_Pod_Heli_Transport_04_bench_F"    
 		};
 	};
 
