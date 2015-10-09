@@ -2255,7 +2255,7 @@ class CfgSettings
 		*/
 		class Frags
 		{
-			bambi = -500;				// Bambi slayers
+			bambi = -1000;				// Bambi slayers
 			friendlyFire = -100;		// For party members
 			standard = 100;				// Normal kill
 			letItRain = 150;			// MG, also vehicle MGs
