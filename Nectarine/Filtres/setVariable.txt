@@ -1,0 +1,2 @@
+//new
+7 "" !="exilexm8isonline" !="bis_fnc_selectrespawntemplate_respawned" !="VEHICLE_SLOT" !="ABORT" !="HALVPV_PARAPOD" !="R3F_LOG_disabled" !="R3F_LOG_est_transporte_par" !="R3F_LOG_est_deplace_par" !="R3F_LOG_heliporte"

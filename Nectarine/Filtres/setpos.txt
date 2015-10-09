@@ -1,0 +1,10 @@
+//new
+7 "" !"Exile_" !"VEHICLE_SLOT" !"ABORT" !"HALVPV_PARAPOD" !"R3F_LOG_disabled" !"R3F_LOG_est_transporte_par" !"R3F_LOG_est_deplace_par" !"R3F_LOG_heliporte"
+7 Exile_Unit_Player
+7 VEHICLE_SLOT
+7 ABORT
+7 HALVPV_PARAPOD
+7 R3F_LOG_disabled
+7 R3F_LOG_est_transporte_par
+7 R3F_LOG_est_deplace_par
+7 R3F_LOG_heliporte
