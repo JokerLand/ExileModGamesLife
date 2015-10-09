@@ -363,3 +363,7 @@ _objects =
     _object enableSimulationGlobal false; // :)
 }
 forEach _objects;
+
+[16,true,true,16] execFSM "fsm\timeModule.fsm";
+//Premiere valeur = _SkipDay
+//Deuxieme valeur = _SkipNight
