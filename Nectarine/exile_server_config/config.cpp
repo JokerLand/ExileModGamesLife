@@ -2382,7 +2382,7 @@ class CfgSettings
 		/**
 		 * Chance in % to spawn loot in a building
 		 */
-		spawnChancePerBuilding = 50;
+		spawnChancePerBuilding = 70;
 
 		/**
 		 * Chance in % to spawn loot per loot spot per building.
@@ -2391,7 +2391,7 @@ class CfgSettings
 		 * 50%  = Normal loot spawn rates
 		 * 20%  = You get the point
 		 */
-		spawnChancePerPosition = 50;
+		spawnChancePerPosition = 70;
 
 		/**
 		 * Should be self-explanatory :)
@@ -2414,7 +2414,7 @@ class CfgSettings
 		 * 50m  = Minimum
 		 * 200m = Maximum
 		 */
-		spawnRadius = 80;
+		spawnRadius = 100;
 
 		/**
 		* Define a de-spawn radius here. That is the radius where loot
@@ -2425,7 +2425,7 @@ class CfgSettings
 		* 10m  = Minimum (thats better if a house is alone in the wild)
 		* 50m = Maximum
 		*/
-		visualThreshold = 10;
+		visualThreshold = 50;
 
 		/**
 		 * Time in seconds to define how long loot stays on the ground
@@ -2599,7 +2599,7 @@ class CfgSettings
 			overcast = 0.2;
 			waves = 0.2;
 			wind = 0.25;
-			gusts = 0.1;
+			gusts = 0;
 			rain = 0;
 			lightnings = 0;
 			rainbows = 0;
@@ -2614,7 +2614,7 @@ class CfgSettings
 			waves = 0.4;
 			wind = 0.25;
 			gusts = 0.5;
-			rain = 0.1;
+			rain = 0;
 			lightnings = 0.1;
 			rainbows = 1;
 		};
@@ -2628,7 +2628,7 @@ class CfgSettings
 			waves = 1;
 			wind = 0.25;
 			gusts = 0.5;
-			rain = 1;
+			rain = 0;
 			lightnings = 1;
 			rainbows = 0.5;
 		};
